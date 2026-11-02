@@ -1,0 +1,15 @@
+# Revalidate pages on every visit so deployments appear without stale HTML.
+/*
+  Cache-Control: no-cache, no-store, must-revalidate
+  Pragma: no-cache
+  Expires: 0
+
+# Static assets may be cached for one day; replace files normally on deployment.
+/assets/*
+  Cache-Control: public, max-age=86400
+/css/*
+  Cache-Control: public, max-age=86400
+/js/*
+  Cache-Control: public, max-age=86400
+/locales/*
+  Cache-Control: public, max-age=86400

@@ -1,0 +1,8 @@
+Audio sources
+Homepage welcome sound
+- Generated for this project: a short, soft ascending welcome chime.
+- Local file: welcome-chime.mp3
+
+Website interface click sound
+- Generated for this project: a short, clean, modern mouse click.
+- Local file: mouse-click-optimized.mp3
